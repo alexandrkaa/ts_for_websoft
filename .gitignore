@@ -13,6 +13,7 @@ pnpm-lock.yaml
 # Build artifacts
 dist/
 out/
+build/
 *.log
 
 # IDE / Editor
