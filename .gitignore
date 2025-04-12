@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+.pnp/
+.pnp.js
+
+# pnpm
+pnpm-lock.yaml
+.pnpm-store/
+
+# Turbo cache
+.turbo/
+
+# Build artifacts
+dist/
+out/
+*.log
+
+# IDE / Editor
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+.env

@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "rootDir": "./src",
+    "target": "ES5",
+    "module": "Preserve",
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noLib": true,
+    "typeRoots": [
+      "node_modules/@wshcmx/types/lib",
+      "node_modules/@wshcmx/types/lib/xml"
+    ]
+  },
+  "include": ["src"],
+  "exclude": ["eslint.config.js", "node_modules", "build"]
+}
